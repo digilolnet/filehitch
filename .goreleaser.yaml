@@ -23,9 +23,9 @@ archives:
       {{- else }}{{ .Arch }}{{ end }}
       {{- if .Arm }}v{{ .Arm }}{{ end }}
 nfpms:
-  - vendor: Surfshark B.V.
-    homepage: https://github.com/surfshark/filehitch
-    maintainer: Laurynas Četyrkinas <laurynas.cetyrkinas@surfsharkteam.com>
+  - vendor: Digilol OÜ
+    homepage: https://github.com/digilolnet/filehitch
+    maintainer: Laurynas Četyrkinas <laurynas@digilol.net>
     description: |-
       Filehitch installer package.
       Automates remote file synchronization by monitoring changes in HTTP and S3 resources based on a specified cron interval.

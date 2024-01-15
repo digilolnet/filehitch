@@ -2,16 +2,16 @@
 
 > Automate remote file synchronization by monitoring changes in HTTP and S3 resources based on a specified cron interval. Decrypt and trigger commands as needed.
 
-[![Github release version](https://img.shields.io/github/v/release/surfshark/filehitch.svg?include_prereleases)](https://github.com/surfshark/filehitch/releases/latest)
-[![Go report](https://goreportcard.com/badge/github.com/surfshark/filehitch)](https://goreportcard.com/report/github.com/surfshark/filehitch)
-[![GoDoc](https://godoc.org/github.com/surfshark/filehitch?status.svg)](https://godoc.org/github.com/surfshark/filehitch)
-[![License](https://img.shields.io/github/license/surfshark/filehitch.svg)](https://github.com/surfshark/filehitch/blob/master/LICENSE)
+[![Github release version](https://img.shields.io/github/v/release/digilolnet/filehitch.svg?include_prereleases)](https://github.com/digilolnet/filehitch/releases/latest)
+[![Go report](https://goreportcard.com/badge/github.com/digilolnet/filehitch)](https://goreportcard.com/report/github.com/digilolnet/filehitch)
+[![GoDoc](https://godoc.org/github.com/digilolnet/filehitch?status.svg)](https://godoc.org/github.com/digilolnet/filehitch)
+[![License](https://img.shields.io/github/license/digilolnet/filehitch.svg)](https://github.com/digilolnet/filehitch/blob/master/LICENSE)
 [![Code with hearth by Stnby](https://img.shields.io/badge/%3C%2F%3E%20with%20%E2%99%A5%20by-Stnby-ff1414.svg)](https://github.com/stnby)
 
 ## Install
 To install the latest version of Filehitch from sources, run:
 ```sh
-go install github.com/surfshark/filehitch/cmd/filehitch@latest
+go install github.com/digilolnet/filehitch/cmd/filehitch@latest
 ```
 
 To install [Secure IO](https://github.com/minio/sio#readme) file encryption tool from sources, run:
@@ -138,4 +138,4 @@ ncrypt -cipher C20P1305 your-file.txt > your-file.txt.enc
 ```
 
 ## License
-This project is licensed under the Apache License, Version 2.0 - see the [LICENSE](https://github.com/surfshark/filehitch/blob/master/LICENSE) file for details.
+This project is licensed under the Apache License, Version 2.0 - see the [LICENSE](https://github.com/digilolnet/filehitch/blob/master/LICENSE) file for details.

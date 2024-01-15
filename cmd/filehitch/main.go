@@ -25,8 +25,8 @@ import (
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
 
-	"github.com/surfshark/filehitch/internal/config"
-	"github.com/surfshark/filehitch/pkg/filehitch"
+	"github.com/digilolnet/filehitch/internal/config"
+	"github.com/digilolnet/filehitch/pkg/filehitch"
 )
 
 func main() {

@@ -1,6 +1,6 @@
 [Unit]
 Description=Filehitch
-Documentation=https://github.com/surfshark/filehitch#configuration
+Documentation=https://github.com/digilolnet/filehitch#configuration
 After=network.target network-online.target
 Requires=network-online.target
 
